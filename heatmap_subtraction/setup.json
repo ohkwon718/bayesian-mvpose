@@ -1,0 +1,8 @@
+{
+    "fullpath_model": "heatmap_subtraction/model_heatmap_subtraction.pt",
+    "shortcut": false,
+    "layer": [16, 32, 64, 128],
+    "imgsize_net": [112,112],
+    "kernel_size": 3,
+    "stride": 2
+}

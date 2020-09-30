@@ -1,0 +1,15 @@
+{
+    "dataset_name": "Shelf",
+    "frame_start": 300,
+    "frame_end": 599,
+    "cameras": [0,1,2,3,4],
+    "fmt_img": "../datasets/Shelf/videos/camera{camera:02}/frame{frame:09}.png",
+    "fmt_hp": "../datasets/Shelf/openpose/parts/camera{camera:02}/frame{frame:09}_pose_heatmaps.png",
+    "fmt_pose2d": "../datasets/Shelf/openpose/poses/camera{camera:02}/frame{frame:09}_keypoints.json",
+    "import_calib": "dataset_settings.Shelf", 
+    "fig_size": [9,6.8],
+    "fig_grid": [3,3],
+    "subplot_cam": [ [[2,0],[1,1]], [[2,1],[1,1]], [[2,2],[1,1]], [[1,2],[1,1]], [[0,2],[1,1]] ],
+    "subplot_3d": [[0,0],[2,2]],
+    "plt3d_lim": [[-2, 2], [-2, 2], [0, 2]]
+}

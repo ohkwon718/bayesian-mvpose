@@ -1,0 +1,4 @@
+{
+    "import_completion": "pose_prediction.completion_fc",
+    "import_prediction": "pose_prediction.prediction_rnn"
+}

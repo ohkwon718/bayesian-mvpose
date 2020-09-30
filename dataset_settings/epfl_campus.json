@@ -1,0 +1,15 @@
+{
+    "dataset_name": "epfl_campus",
+    "frame_start": 350,
+    "frame_end": 749,
+    "cameras": [0,1,2],
+    "fmt_img": "../datasets/campus/videos/camera{camera:02}/frame{frame:09}.png",
+    "fmt_hp": "../datasets/campus/openpose/parts/camera{camera:02}/frame{frame:09}_pose_heatmaps.png",
+    "fmt_pose2d": "../datasets/campus/openpose/poses/camera{camera:02}/frame{frame:09}_keypoints.json",
+    "import_calib": "dataset_settings.epfl_campus", 
+    "fig_size": [9,7.2],
+    "fig_grid": [2,2],
+    "subplot_cam": [ [[0,0],[1,1]], [[0,1],[1,1]], [[1,0],[1,1]] ],
+    "subplot_3d": [[1,1],[1,1]],
+    "plt3d_lim": [[-1, 7], [1, 9], [0, 2]]
+}
